@@ -19,7 +19,7 @@
 
 ### `01 / WHO AM I?`
 
-Hey, I'm **YOUR NAME** — a developer and technology student at **Mirai School of Technology**.
+Hey, I'm **Harsh Koli** — a developer and technology student at **Mirai School of Technology**.
 
 I enjoy turning an idea into something people can actually use. From full-stack apps to open-source contributions, I like learning how systems work and making them better.
 
