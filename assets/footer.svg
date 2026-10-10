@@ -1,1 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="82" viewBox="0 0 1000 82"><defs><linearGradient id="a"><stop stop-color="#72ffd7"/><stop offset=".5" stop-color="#65b5ff"/><stop offset="1" stop-color="#b08cff"/></linearGradient></defs><style>.pulse{animation:p 3s ease-in-out infinite alternate}@keyframes p{to{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><path d="M0 7H1000" stroke="url(#a)" stroke-width="2"/><text x="500" y="45" font-family="monospace" font-size="18" text-anchor="middle" fill="#78decb">THANKS FOR VISITING • LET'S BUILD SOMETHING GREAT</text><g class="pulse"><circle cx="335" cy="39" r="4" fill="#70ffd3"/><circle cx="665" cy="39" r="4" fill="#b491ff"/></g><text x="500" y="68" font-family="monospace" font-size="11" text-anchor="middle" fill="#8997b0">© HARSH KOLI • ALWAYS UNDER CONSTRUCTION</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="95" viewBox="0 0 1000 95" role="img" aria-label="Harsh Koli Profile Footer">
+  <defs>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="30%" stop-color="#38BDF8" />
+      <stop offset="70%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <filter id="fGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes footerGlow {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; filter: drop-shadow(0 0 6px #00F5D4); }
+    }
+    @keyframes pulseRing {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.6); opacity: 0; }
+    }
+    .laser-glow { animation: footerGlow 3s ease-in-out infinite; }
+    .pulse-dot { animation: pulseRing 2s ease-out infinite; transform-origin: center; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <!-- Glowing Top Divider Line -->
+  <path d="M 0 10 L 1000 10" stroke="url(#footerLine)" stroke-width="2.5" class="laser-glow" />
+
+  <!-- Center Decorative Diamond -->
+  <polygon points="500,5 506,10 500,15 494,10" fill="#00F5D4" filter="url(#fGlow)" />
+
+  <!-- Left & Right Accent Dots -->
+  <circle cx="280" cy="10" r="3" fill="#38BDF8" />
+  <circle cx="720" cy="10" r="3" fill="#C084FC" />
+
+  <!-- Footer Tagline -->
+  <text x="500" y="48" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="700" text-anchor="middle" fill="#E2E8F0" letter-spacing="1.5">
+    DESIGNED TO SOLVE REAL PROBLEMS <tspan fill="#00F5D4">•</tspan> BUILT TO SCALE
+  </text>
+
+  <!-- Copyright & Status -->
+  <text x="500" y="74" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" text-anchor="middle" fill="#64748B" letter-spacing="1">
+    © HARSH KOLI <tspan fill="#818CF8">//</tspan> POWERED BY OPEN SOURCE &amp; PERSISTENT ITERATION
+  </text>
+</svg>

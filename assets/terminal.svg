@@ -1,9 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="195" viewBox="0 0 1000 195" role="img" aria-label="Animated terminal with Harsh Koli developer information">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1421"/><stop offset="1" stop-color="#12112a"/></linearGradient></defs>
-<style>.blink{animation:blink .9s step-end infinite}.p{animation:pulse 2s infinite alternate}@keyframes blink{50%{opacity:0}}@keyframes pulse{to{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<rect x="2" y="2" width="996" height="191" rx="15" fill="url(#bg)" stroke="#356779" stroke-width="2"/>
-<path d="M2 43H998" stroke="#356779"/><circle cx="28" cy="23" r="7" fill="#fa6669"/><circle cx="52" cy="23" r="7" fill="#ffc35e"/><circle cx="76" cy="23" r="7" fill="#52d998"/><text x="103" y="29" fill="#839fb8" font-family="monospace" font-size="15">harsh@github: ~/profile</text>
-<text x="31" y="76" fill="#78e9bb" font-family="monospace" font-size="17">$ whoami</text><text x="31" y="102" fill="#e2edff" font-family="monospace" font-size="17">Harsh Koli — developer, maker, lifelong learner.</text>
-<text x="31" y="132" fill="#78e9bb" font-family="monospace" font-size="17">$ current_mission</text><text x="31" y="159" fill="#e2edff" font-family="monospace" font-size="17">Build useful products • Contribute to open source • Keep leveling up <tspan class="blink" fill="#78e9bb">█</tspan></text>
-<rect x="914" y="65" width="52" height="7" rx="3" fill="#6bdfbf" class="p"/><rect x="928" y="80" width="38" height="7" rx="3" fill="#a18df4" class="p"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="235" viewBox="0 0 1000 235" role="img" aria-label="Animated Developer Terminal">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E1C" />
+      <stop offset="60%" stop-color="#0E162C" />
+      <stop offset="100%" stop-color="#060A14" />
+    </linearGradient>
+    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111B33" />
+      <stop offset="100%" stop-color="#0D1629" />
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+    <clipPath id="termClip">
+      <rect width="1000" height="235" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseBar {
+      0%, 100% { transform: scaleX(1); opacity: 0.8; }
+      50% { transform: scaleX(0.7); opacity: 0.35; }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 3px #00F5D4); }
+      50% { opacity: 0.3; }
+    }
+    .cursor { animation: cursorBlink 0.9s infinite; }
+    .pulse-meter-1 { animation: pulseBar 2.2s ease-in-out infinite alternate; transform-origin: left; }
+    .pulse-meter-2 { animation: pulseBar 3.1s ease-in-out infinite alternate-reverse; transform-origin: left; }
+    .live-dot { animation: pulseDot 1.5s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#termClip)">
+    <!-- Terminal Background -->
+    <rect width="1000" height="235" fill="url(#termBg)" stroke="#1E293B" stroke-width="2" />
+
+    <!-- Terminal Window Bar -->
+    <rect width="1000" height="38" fill="url(#titleBarGrad)" />
+    <path d="M 0 38 L 1000 38" stroke="#334155" stroke-width="1" />
+
+    <!-- macOS Traffic Light Window Buttons -->
+    <circle cx="24" cy="19" r="6.5" fill="#EF4444" />
+    <circle cx="44" cy="19" r="6.5" fill="#F59E0B" />
+    <circle cx="64" cy="19" r="6.5" fill="#10B981" />
+
+    <!-- Window Title -->
+    <text x="100" y="24" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600">
+      harsh@arch-station: ~/workspace/flagships
+    </text>
+
+    <!-- Activity Status on Right of Title Bar -->
+    <g transform="translate(850, 11)">
+      <circle cx="10" cy="8" r="4" fill="#00F5D4" class="live-dot" />
+      <text x="22" y="12" fill="#00F5D4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">NODE CLUSTER: IDLE</text>
+    </g>
+
+    <!-- Terminal Lines -->
+    <!-- Command 1 -->
+    <g transform="translate(30, 68)">
+      <text x="0" y="0" fill="#00F5D4" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700">&gt; harsh whoami</text>
+      <text x="0" y="22" fill="#E2E8F0" font-family="'JetBrains Mono', Consolas, monospace" font-size="14.5">
+        Harsh Koli <tspan fill="#64748B">—</tspan> Builder of High-Throughput Systems, Open-Source Dev &amp; Web Architect.
+      </text>
+    </g>
+
+    <!-- Command 2: Attendify -->
+    <g transform="translate(30, 122)">
+      <text x="0" y="0" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700">&gt; attendify --inspect-modules</text>
+      <text x="0" y="22" fill="#F8FAFC" font-family="'JetBrains Mono', Consolas, monospace" font-size="14">
+        <tspan fill="#C084FC">[Acoustic Ultrasonic DSP]</tspan> <tspan fill="#10B981">✓ Active</tspan>  •  
+        <tspan fill="#818CF8">[WebAuthn Biometrics]</tspan> <tspan fill="#10B981">✓ Bound</tspan>  •  
+        <tspan fill="#38BDF8">[Live GPS Radar]</tspan> <tspan fill="#10B981">✓ Synced</tspan>
+      </text>
+    </g>
+
+    <!-- Command 3: Status / Mission -->
+    <g transform="translate(30, 178)">
+      <text x="0" y="0" fill="#A78BFA" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700">&gt; telemetry --track-objective</text>
+      <text x="0" y="22" fill="#E2E8F0" font-family="'JetBrains Mono', Consolas, monospace" font-size="14">
+        Contribute to O-Tel Collector • Master Distributed Systems • Ship Production Code <tspan fill="#00F5D4" class="cursor">█</tspan>
+      </text>
+    </g>
+
+    <!-- Right Side Animated Load Meters -->
+    <g transform="translate(860, 68)">
+      <text x="0" y="0" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">CPU LOAD</text>
+      <rect x="0" y="8" width="90" height="5" rx="2.5" fill="#1E293B" />
+      <rect x="0" y="8" width="68" height="5" rx="2.5" fill="url(#accentCyan)" class="pulse-meter-1" />
+
+      <text x="0" y="32" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">MEM USAGE</text>
+      <rect x="0" y="40" width="90" height="5" rx="2.5" fill="#1E293B" />
+      <rect x="0" y="40" width="52" height="5" rx="2.5" fill="url(#accentPurple)" class="pulse-meter-2" />
+
+      <text x="0" y="64" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">TEST SUITE</text>
+      <rect x="0" y="72" width="90" height="5" rx="2.5" fill="#1E293B" />
+      <rect x="0" y="72" width="85" height="5" rx="2.5" fill="#10B981" />
+      <text x="0" y="92" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">23/23 PASSING</text>
+    </g>
+
+    <!-- Border Glow Line at bottom -->
+    <path d="M 0 234 L 1000 234" stroke="url(#accentCyan)" stroke-opacity="0.4" stroke-width="2" />
+  </g>
 </svg>
