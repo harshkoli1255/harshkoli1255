@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Developer profile banner">
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#2d3642" stroke-width="1" opacity=".44"/></pattern>
+ <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#adf7b6"/><stop offset="1" stop-color="#a399ff"/></linearGradient>
+ <clipPath id="screen"><rect width="1198" height="328" x="1" y="1" rx="16"/></clipPath>
+</defs>
+<rect width="1200" height="330" rx="16" fill="#10151e"/><g clip-path="url(#screen)"><rect width="1200" height="330" fill="url(#grid)"/>
+<circle cx="1050" cy="130" r="160" fill="#9cf4aa" opacity=".045"/><circle cx="1050" cy="130" r="115" fill="none" stroke="#9cf4aa" stroke-width="1" opacity=".3"/><circle cx="1050" cy="130" r="85" fill="none" stroke="#a399ff" stroke-dasharray="8 12" opacity=".6"/>
+<path d="M910 164h280M1050 25v280" stroke="#9cf4aa" opacity=".22" stroke-dasharray="4 8"/>
+<g fill="#a8fac1" opacity=".85"><rect x="1039" y="117" width="22" height="22"/><rect x="1001" y="155" width="12" height="12"/><rect x="1090" y="87" width="14" height="14"/><rect x="1120" y="188" width="10" height="10"/></g>
+<rect x="34" y="30" width="13" height="13" fill="#a8fac1"/><text x="60" y="42" fill="#9eacb9" font-family="monospace" font-size="18" letter-spacing="3">PORTFOLIO / README.MD</text>
+<text x="38" y="119" fill="#e9f1f0" font-family="monospace" font-size="52" font-weight="700">HELLO, I'M</text>
+<text x="38" y="186" fill="url(#glow)" font-family="monospace" font-size="67" font-weight="700">YOUR NAME<tspan fill="#a6f7bd">_</tspan></text>
+<text x="42" y="231" fill="#b6c3c9" font-family="monospace" font-size="19">FULL-STACK DEVELOPER  /  OPEN SOURCE  /  BUILDER</text>
+<path d="M39 260H763" stroke="#4d5a67" stroke-width="1"/><text x="40" y="290" fill="#adf7b6" font-family="monospace" font-size="17">&gt; turning ideas into working software</text>
+<rect x="1" y="1" width="1198" height="328" rx="16" fill="none" stroke="#4e6659" stroke-width="2"/>
+<path d="M0 309H1200" stroke="#adf7b6" stroke-width="2" opacity=".15"><animate attributeName="opacity" values=".08;.36;.08" dur="4s" repeatCount="indefinite"/></path>
+</g></svg>
