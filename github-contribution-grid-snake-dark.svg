@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="170" viewBox="0 0 850 170" role="img" aria-label="Harsh Koli Contribution Snake Animation">
+  <defs>
+    <linearGradient id="gridBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E1C" />
+      <stop offset="100%" stop-color="#040812" />
+    </linearGradient>
+    <linearGradient id="snakeHeadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <filter id="snakeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes snakeMove {
+      0% { transform: translate(45px, 32px); }
+      15% { transform: translate(210px, 32px); }
+      25% { transform: translate(210px, 80px); }
+      40% { transform: translate(420px, 80px); }
+      55% { transform: translate(420px, 48px); }
+      70% { transform: translate(680px, 48px); }
+      85% { transform: translate(680px, 112px); }
+      95% { transform: translate(800px, 112px); }
+      100% { transform: translate(800px, 32px); }
+    }
+    @keyframes pulseTarget {
+      0%, 100% { fill: #00F5D4; filter: drop-shadow(0 0 4px #00F5D4); }
+      50% { fill: #39D353; filter: none; }
+    }
+    .snake-body { animation: snakeMove 14s linear infinite; }
+    .target-dot { animation: pulseTarget 1.8s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="850" height="170" rx="12" fill="url(#gridBg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Title / Header -->
+  <g transform="translate(25, 20)">
+    <circle cx="6" cy="6" r="4" fill="#00F5D4" />
+    <text x="18" y="10" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#94A3B8">
+      HARSH KOLI // LIVE CONTRIBUTION ECOSYSTEM
+    </text>
+  </g>
+
+  <!-- 53 columns x 7 rows of contribution grid dots -->
+  <g id="contribution-grid" transform="translate(30, 42)">
+    <!-- Base Pattern of dots rendered efficiently -->
+    <g fill="#161B22">
+      <!-- Row generation using repeating circles -->
+      <pattern id="dotGrid" width="15" height="15" patternUnits="userSpaceOnUse">
+        <rect width="11" height="11" rx="2.5" fill="#162235" />
+      </pattern>
+      <rect width="795" height="105" fill="url(#dotGrid)" />
+    </g>
+
+    <!-- Simulated Active Contribution Cells -->
+    <g>
+      <!-- Level 1 (Teal dim) -->
+      <g fill="#0E3A3B">
+        <rect x="30" y="15" width="11" height="11" rx="2.5" />
+        <rect x="75" y="45" width="11" height="11" rx="2.5" />
+        <rect x="120" y="0" width="11" height="11" rx="2.5" />
+        <rect x="180" y="30" width="11" height="11" rx="2.5" />
+        <rect x="255" y="60" width="11" height="11" rx="2.5" />
+        <rect x="330" y="15" width="11" height="11" rx="2.5" />
+        <rect x="405" y="45" width="11" height="11" rx="2.5" />
+        <rect x="495" y="75" width="11" height="11" rx="2.5" />
+        <rect x="570" y="30" width="11" height="11" rx="2.5" />
+        <rect x="660" y="15" width="11" height="11" rx="2.5" />
+      </g>
+      <!-- Level 2 (Cyan vibrant) -->
+      <g fill="#00A896">
+        <rect x="45" y="30" width="11" height="11" rx="2.5" />
+        <rect x="135" y="15" width="11" height="11" rx="2.5" />
+        <rect x="210" y="45" width="11" height="11" rx="2.5" />
+        <rect x="285" y="30" width="11" height="11" rx="2.5" />
+        <rect x="360" y="75" width="11" height="11" rx="2.5" />
+        <rect x="450" y="15" width="11" height="11" rx="2.5" />
+        <rect x="525" y="45" width="11" height="11" rx="2.5" />
+        <rect x="615" y="60" width="11" height="11" rx="2.5" />
+        <rect x="705" y="30" width="11" height="11" rx="2.5" />
+      </g>
+      <!-- Level 3 (Neon Green / Cyan High) -->
+      <g fill="#00F5D4">
+        <rect x="90" y="30" width="11" height="11" rx="2.5" />
+        <rect x="195" y="75" width="11" height="11" rx="2.5" />
+        <rect x="300" y="15" width="11" height="11" rx="2.5" />
+        <rect x="420" y="45" width="11" height="11" rx="2.5" />
+        <rect x="540" y="15" width="11" height="11" rx="2.5" />
+        <rect x="645" y="75" width="11" height="11" rx="2.5" />
+        <rect x="735" y="45" width="11" height="11" rx="2.5" />
+        <rect x="780" y="15" width="11" height="11" rx="2.5" class="target-dot" />
+      </g>
+    </g>
+
+    <!-- Animated Snake Head & Body -->
+    <g class="snake-body">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="url(#snakeHeadGrad)" filter="url(#snakeGlow)" />
+      <rect x="-15" y="0" width="11" height="11" rx="2.5" fill="#00F5D4" opacity="0.8" />
+      <rect x="-30" y="0" width="11" height="11" rx="2.5" fill="#38BDF8" opacity="0.6" />
+      <rect x="-45" y="0" width="11" height="11" rx="2.5" fill="#818CF8" opacity="0.4" />
+      <!-- Eyes on Snake Head -->
+      <circle cx="8" cy="3" r="1.2" fill="#040812" />
+      <circle cx="8" cy="8" r="1.2" fill="#040812" />
+    </g>
+  </g>
+
+  <!-- Legend in bottom right -->
+  <g transform="translate(680, 155)">
+    <text x="-35" y="9" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748B">Less</text>
+    <rect x="0" y="0" width="9" height="9" rx="2" fill="#162235" />
+    <rect x="13" y="0" width="9" height="9" rx="2" fill="#0E3A3B" />
+    <rect x="26" y="0" width="9" height="9" rx="2" fill="#00A896" />
+    <rect x="39" y="0" width="9" height="9" rx="2" fill="#00F5D4" />
+    <text x="54" y="9" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748B">More</text>
+  </g>
+</svg>
