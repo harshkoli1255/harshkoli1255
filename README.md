@@ -1,125 +1,117 @@
-<div align="center">
-  <img src="./banner.svg" width="100%" alt="Custom developer banner" />
-
-  <br />
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2900&pause=950&color=A8FAC1&center=true&vCenter=true&width=700&lines=Building+things+that+make+a+difference.;Full-stack+development+%E2%9C%A6+Open+source;Code.+Experiment.+Ship.+Repeat." alt="Animated developer tagline" />
-
-  <p>
-    <a href="https://github.com/USERNAME?tab=followers"><img src="https://img.shields.io/github/followers/USERNAME?style=flat-square&logo=github&label=FOLLOWERS&labelColor=17202B&color=A8FAC1" alt="Followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=USERNAME&style=flat-square&label=PROFILE+VIEWS&color=9F94FF" alt="Profile views" />
-    <img src="https://img.shields.io/badge/STATUS-BUILDING_IN_PUBLIC-A8FAC1?style=flat-square&labelColor=17202B" alt="Building in public" />
-  </p>
-</div>
-
-<!-- ABOUT -->
-<table>
-<tr>
-<td width="60%" valign="top">
-
-### `01 / WHO AM I?`
-
-Hey, I'm **Harsh Koli** — a developer and technology student at **Mirai School of Technology**.
-
-I enjoy turning an idea into something people can actually use. From full-stack apps to open-source contributions, I like learning how systems work and making them better.
-
-- `> focus` &nbsp; Full-stack development & open source
-- `> exploring` &nbsp; AI, developer tools & scalable systems
-- `> philosophy` &nbsp; Build. Break. Learn. Improve.
-- `> location` &nbsp; India 🇮🇳
-
-</td>
-<td width="40%" valign="top">
-
-### `02 / CURRENTLY` 
-
-```text
-┌─ developer.log ───────────┐
-│ STATUS   : LEARNING      │
-│ MODE     : SHIPPING      │
-│ FUEL     : CURIOSITY     │
-│ BUGS     : IN PROGRESS   │
-│ GOAL     : GET BETTER    │
-└──────────────────────────┘
-```
-
-</td>
-</tr>
-</table>
-
-### `03 / TECH ARSENAL`
-
+<!--
+  HARSH KOLI — NEON ORBIT
+  Personalized for @harshkoli1255; contact information intentionally omitted.
+  Custom SVG assets are stored in /assets and animated in supported browsers.
+-->
 <div align="center">
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=cpp,c,python,java,js,ts,go&theme=dark" alt="Languages: C++, C, Python, Java, JavaScript, TypeScript and Go" />
-
-**Frontend & Mobile**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="React, Next.js, HTML, CSS, Tailwind" />
-
-**Backend, Databases & Tools**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,git,github,docker,postman&theme=dark" alt="Node.js, Express, MongoDB, PostgreSQL, Git, GitHub, Docker, Postman" />
-
-</div>
-
-### `04 / FEATURED BUILDS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🍃 ZeroPlate AI**
-
-A smart food-waste reduction and redistribution platform connecting kitchens, NGOs, and delivery partners.
-
-`Food rescue` · `Full-stack` · `AI concepts`
-
-[**Explore live project ↗**](https://zero-plate-ai.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-**🔭 Open-Source Journey**
-
-Exploring real-world codebases and working on issues, fixes, and pull requests across developer tools and infrastructure projects.
-
-`GitHub` · `Jaeger` · `Collaboration`
-
-[**View my repositories ↗**](https://github.com/USERNAME?tab=repositories)
-
-</td>
-</tr>
-</table>
-
-### `05 / GITHUB TELEMETRY`
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&bg_color=10151e&title_color=a8fac1&text_color=c6d0d7&icon_color=a399ff&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&bg_color=10151e&title_color=a8fac1&text_color=c6d0d7&langs_count=7" alt="Top languages" />
-
-  <img width="95%" src="https://streak-stats.demolab.com?user=USERNAME&theme=transparent&hide_border=true&background=10151E&ring=A8FAC1&fire=A399FF&currStreakLabel=A8FAC1&sideLabels=C6D0D7&dates=8897A4" alt="Contribution streak" />
-</div>
-
-### `06 / CONTRIBUTION TRAIL`
-
-<!-- Optional: enable the GitHub Action supplied in .github/workflows/snake.yml, then uncomment this line. -->
-<!-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake-dark.svg" /><img alt="Snake animation" src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake.svg" /></picture> -->
-
-> **Good code is written. Better code is improved.**
-
-### `07 / LET'S CONNECT`
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/LINKEDIN_ID/"><img src="https://img.shields.io/badge/LINKEDIN-10151e?style=for-the-badge&logo=linkedin&logoColor=A8FAC1" alt="LinkedIn" /></a>
-  <a href="https://github.com/USERNAME"><img src="https://img.shields.io/badge/GITHUB-10151e?style=for-the-badge&logo=github&logoColor=A8FAC1" alt="GitHub" /></a>
-  <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/EMAIL-10151e?style=for-the-badge&logo=gmail&logoColor=A8FAC1" alt="Email" /></a>
-  <a href="https://YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/PORTFOLIO-10151e?style=for-the-badge&logo=vercel&logoColor=A8FAC1" alt="Portfolio" /></a>
-</div>
+<img src="./assets/hero.svg" width="100%" alt="Harsh Koli animated neon developer banner" />
 
 <br />
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2900&pause=900&color=79EAD1&center=true&vCenter=true&multiline=false&width=720&height=48&lines=Building+things+that+make+a+difference;Full-stack+development+%7C+Open+source;C%2B%2B+%7C+Python+%7C+React+%7C+TypeScript;Ship+it.+Learn+it.+Make+it+better." alt="Animated typing introduction" /></a>
+
+<br />
+
+<a href="https://github.com/harshkoli1255?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/harshkoli1255?label=FOLLOWERS&style=for-the-badge&labelColor=101523&color=6DEDD1" /></a>
+<a href="https://github.com/harshkoli1255"><img alt="GitHub profile" src="https://img.shields.io/badge/GITHUB-PROFILE-9F8CF4?style=for-the-badge&logo=github&logoColor=white&labelColor=101523" /></a>
+<a href="https://github.com/harshkoli1255?tab=repositories"><img alt="Explore repositories" src="https://img.shields.io/badge/EXPLORE-MY%20CODE-68C4FF?style=for-the-badge&logo=github&logoColor=white&labelColor=101523" /></a>
+
+</div>
+
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" alt="Wave" /> About me
+
+<img align="right" width="155" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Developer coding animation" />
+
+- 👋 I'm **Harsh Koli** — a developer who loves building and experimenting.
+- 🚀 I work with **C++, Python, JavaScript, TypeScript, React, Node.js, Go** and more.
+- 🌱 Currently sharpening my **DSA, backend engineering, and open-source** skills.
+- 🔭 Interested in **developer tools, useful web applications, and AI-powered projects**.
+- ⚡ My philosophy: **Build → Break → Learn → Improve → Repeat.**
+
+<br clear="both" />
+
 <div align="center">
-  <sub>⌁ built with curiosity · maintained with caffeine · improved one commit at a time ⌁</sub>
+<img src="./assets/terminal.svg" width="100%" alt="Animated developer terminal" />
+</div>
+
+## ⚡ Tech universe
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=cpp,c,python,java,javascript,typescript,react,nextjs,nodejs,express,mongodb,postgres,go,git,github,docker,html,css,tailwind,vscode&perline=10&theme=dark" alt="Technology skill icons" />
+</div>
+
+## 🛰️ Currently exploring
+
+```text
+   ╭─────────────────────────────── MISSION CONTROL ───────────────────────────────╮
+   │                                                                              │
+   │   [01]  Data Structures & Algorithms         █████████████░░░   KEEP GOING  │
+   │   [02]  Open Source Contributions            ███████████░░░░░   BUILDING    │
+   │   [03]  Full-Stack Web Development            █████████████░░░   SHIPPING    │
+   │   [04]  Backend Systems & Developer Tools     █████████░░░░░░░   LEARNING    │
+   │                                                                              │
+   ╰──────────────────────────────────────────────────────────────────────────────╯
+```
+
+> The bars above are illustrative, not measured progress.
+
+## 🛠️ Things I've been building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🥗 ZeroPlate AI</h3>
+<p>Smart food waste reduction and food redistribution platform connecting kitchens, NGOs, and delivery partners.</p>
+<a href="https://zero-plate-ai.vercel.app/"><img src="https://img.shields.io/badge/EXPLORE-PROJECT-6DEDD1?style=flat-square&labelColor=141928" alt="Explore ZeroPlate AI" /></a>
+</td>
+<td width="50%" valign="top">
+<h3>🧩 Open-source journey</h3>
+<p>Learning in public through issues, pull requests, debugging, and collaborating on real-world developer projects.</p>
+<a href="https://github.com/harshkoli1255?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-AD8BFF?style=flat-square&labelColor=141928" alt="Explore repositories" /></a>
+</td>
+</tr>
+</table>
+
+### 🌦️ Weatherwise
+
+A full-stack intelligent weather platform built with Next.js and Gemini AI, including real-time information, AI summaries, and customizable alerts.  
+[Explore Weatherwise →](https://github.com/harshkoli1255/Weatherwise)
+
+### 📟 JioFiberCLI & DSA
+
+- [JioFiberCLI](https://github.com/harshkoli1255/JioFiberCLI) — Python project.
+- [DSA](https://github.com/harshkoli1255/DSA) — my C++ data structures and algorithms practice.
+- [WEB_DEV-Projects](https://github.com/harshkoli1255/WEB_DEV-Projects) — my web-development work.
+
+## 📊 GitHub telemetry
+
+<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=harshkoli1255&show_icons=true&hide_border=true&bg_color=0D1117&title_color=74F4D1&text_color=CCD6F6&icon_color=AA8EFF&ring_color=74F4D1" alt="Harsh Koli GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshkoli1255&layout=compact&hide_border=true&bg_color=0D1117&title_color=74F4D1&text_color=CCD6F6" alt="Most used GitHub languages" />
+<br />
+<img src="https://streak-stats.demolab.com?user=harshkoli1255&theme=transparent&hide_border=true&ring=74F4D1&fire=AA8EFF&currStreakLabel=74F4D1&sideLabels=CCD6F6&dates=9AA9C5&sideNums=CCD6F6&currStreakNum=CCD6F6" alt="GitHub streaks" />
+</div>
+
+## 🐍 My commits have a life of their own
+
+<div align="center">
+<!-- Available after you enable GitHub Actions and run the snake.yml workflow once. -->
+<img src="https://raw.githubusercontent.com/harshkoli1255/harshkoli1255/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake, generated by GitHub Actions" width="100%" />
+</div>
+
+## 🤝 Connect with me
+
+Find me on GitHub. Other contact links can be added when I choose to share them publicly.
+
+
+<div align="center">
+<a href="https://github.com/harshkoli1255"><img src="https://img.shields.io/badge/GitHub-141928?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</div>
+
+<div align="center">
+<br />
+<img src="https://komarev.com/ghpvc/?username=harshkoli1255&label=PROFILE+VIEWS&color=6DEDD1&style=for-the-badge" alt="Profile views" />
+<br /><br />
+<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting" />
 </div>
